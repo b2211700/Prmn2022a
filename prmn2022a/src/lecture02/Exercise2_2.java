@@ -6,6 +6,7 @@ public class Exercise2_2 {
         Engine engine = new Engine(400);
 
         Car car = new Car((Tire[]) tire, (Engine) engine);
+        //Car car = new Car();
         GasStation gasstation = new GasStation();
 
         car.run();
