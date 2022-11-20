@@ -11,19 +11,19 @@ public class Exercise3_2 {
         int n = scanner.nextInt();
         String s = scanner.nextLine();
 
-        ArrayList<String> sentence = new ArrayList<>(n);
+        ArrayList<String> list = new ArrayList<>(n);
 
         for (int i = 0; i < n; i++) {
             System.out.println((i + 1) + "行目:");
             String b = scanner.nextLine();
-            sentence.add(b);
+            list.add(b);
         }
         System.out.println("入力した文字列:");
 
         int i = 0;
 
-        for(String list : sentence){
-            System.out.println("[" + i + "]" + list);
+        for(String string : list){
+            System.out.println("[" + i + "]" + string);
             i = i + 1;
         }
 
