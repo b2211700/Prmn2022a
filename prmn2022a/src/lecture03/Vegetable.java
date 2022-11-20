@@ -8,7 +8,6 @@ public class Vegetable {
         this.name = name;
         this.value = value;
     }
-
     void print(){
         System.out.println(name + "は" + value + "円");
     }
