@@ -7,7 +7,7 @@ public class Exercise5_5 {
         Locust locust = new Locust();
         Insect locust1 = locust;
 
-
+        locust1.move("跳んだよ");
 
     }
 }
