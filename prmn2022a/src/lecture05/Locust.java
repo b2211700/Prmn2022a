@@ -1,7 +1,7 @@
 package lecture05;
 
-public class Locust extends Insect{
+//public class Locust extends Insect{
 
-    public void move(){
-    }
-}
+    //public void move(){
+    //}
+//}

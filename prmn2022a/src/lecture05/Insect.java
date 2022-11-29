@@ -2,11 +2,12 @@ package lecture05;
 
 public class Insect {
         protected String dou;
-        Insect() {
+        public Insect(String dou) {
             this.dou = dou;
         }
-        public void move(String dou){
+        public void move(){
             System.out.println(dou);
         }
+
     }
 
