@@ -6,5 +6,6 @@ public class Exercise5_2 {
 
         Butterfly butterfly = new Butterfly("飛んだよ");
         butterfly.move();
+
     }
 }
