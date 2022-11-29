@@ -1,7 +1,10 @@
 package lecture05;
 
 public class Insect {
-        protected String dou;
+
+    protected String dou;
+        public Insect(){
+        }
         public Insect(String dou) {
             this.dou = dou;
         }
