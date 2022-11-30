@@ -4,9 +4,8 @@ public class Exercise5_3 {
 
     public static void main(String[] args) {
 
-        Butterfly butterfly = new Butterfly("飛んだよ");
-        Insect butterfly1 = butterfly;
+        Insect insect = new Butterfly();
 
-        butterfly1.move();
+        insect.move();
     }
 }
