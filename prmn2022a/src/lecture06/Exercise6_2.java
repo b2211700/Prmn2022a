@@ -1,5 +1,4 @@
 package lecture06;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Random;
