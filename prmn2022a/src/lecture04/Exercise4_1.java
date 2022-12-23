@@ -21,7 +21,6 @@ public class Exercise4_1 {
                 System.out.println(f1.getName() + "は倒れた。");
                 break;
             }
-
         }
     }
 }
